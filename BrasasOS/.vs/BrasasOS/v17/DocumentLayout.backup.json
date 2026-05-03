@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|d:\\documentos\\prog\\pro web\\proyecto\\brasas-os\\brasasos\\brasasos.api\\models\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|solutionrelative:brasasos.api\\models\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|d:\\documentos\\prog\\pro web\\proyecto\\brasas-os\\brasasos\\brasasos.api\\brasasos.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|solutionrelative:brasasos.api\\brasasos.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|d:\\documentos\\prog\\pro web\\proyecto\\brasas-os\\brasasos\\brasasos.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|solutionrelative:brasasos.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|d:\\documentos\\prog\\pro web\\proyecto\\brasas-os\\brasasos\\brasasos.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|solutionrelative:brasasos.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|d:\\documentos\\prog\\pro web\\proyecto\\brasas-os\\brasasos\\brasasos.api\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|solutionrelative:brasasos.api\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|d:\\documentos\\prog\\pro web\\proyecto\\brasas-os\\brasasos\\brasasos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|solutionrelative:brasasos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|d:\\documentos\\prog\\pro web\\proyecto\\brasas-os\\brasasos\\brasasos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11663D34-8FC3-4FB9-AD77-6F09229F7F15}|BrasasOS.API\\BrasasOS.API.csproj|solutionrelative:brasasos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 322,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "BrasasOS.API\\Controllers\\ProductosController.cs",
+              "ToolTip": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "BrasasOS.API\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T23:53:30.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\Models\\Categorias.cs",
+              "RelativeDocumentMoniker": "BrasasOS.API\\Models\\Categorias.cs",
+              "ToolTip": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\Models\\Categorias.cs",
+              "RelativeToolTip": "BrasasOS.API\\Models\\Categorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T23:49:58.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrasasOS.API",
+              "DocumentMoniker": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\BrasasOS.API.csproj",
+              "RelativeDocumentMoniker": "BrasasOS.API\\BrasasOS.API.csproj",
+              "ToolTip": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\BrasasOS.API.csproj",
+              "RelativeToolTip": "BrasasOS.API\\BrasasOS.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-02T23:28:21.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BrasasOS.API\\appsettings.Development.json",
+              "ToolTip": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\appsettings.Development.json",
+              "RelativeToolTip": "BrasasOS.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-02T23:23:51.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\Models\\Productos.cs",
+              "RelativeDocumentMoniker": "BrasasOS.API\\Models\\Productos.cs",
+              "ToolTip": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\Models\\Productos.cs",
+              "RelativeToolTip": "BrasasOS.API\\Models\\Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T23:28:54.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "BrasasOS.API\\appsettings.json",
+              "ToolTip": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\appsettings.json",
+              "RelativeToolTip": "BrasasOS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-02T23:23:42.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\Program.cs",
+              "RelativeDocumentMoniker": "BrasasOS.API\\Program.cs",
+              "ToolTip": "D:\\Documentos\\prog\\Pro Web\\Proyecto\\Brasas-OS\\BrasasOS\\BrasasOS.API\\Program.cs",
+              "RelativeToolTip": "BrasasOS.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T21:45:06.57Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 78,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
