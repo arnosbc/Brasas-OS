@@ -1,35 +1,34 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BrasasOS.API.Services;
 using BrasasOS.Models;
+using Microsoft.AspNetCore.Mvc;
 using Supabase;
 
-namespace BrasasOS.Controllers
+[ApiController]
+[Route("api/[controller]")]
+public class ProductosController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductosController : ControllerBase
+    private readonly Supabase.Client _supabase;
+
+    public ProductosController(Supabase.Client supabase)
     {
-        private readonly Supabase.Client _supabaseClient;
+        _supabase = supabase;
+    }
 
-        public ProductosController(Supabase.Client supabaseClient)
-        {
-            _supabaseClient = supabaseClient;
-        }
+    [HttpGet]
+    public async Task<IActionResult> GetProductos()
+    {
+        var result = await _supabase.From<Producto>().Get();
+        return Ok(result.Models);
+    }
 
-        // Obtener todos los productos
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Productos>>> GetProductos()
-        {
-            var response = await _supabaseClient.From<Productos>().Get();
-            return Ok(response.Models);
-        }
+    [HttpPost("vender/{id}")]
+    public async Task<IActionResult> VenderProducto(long id, [FromBody] int cantidad)
+    {
+        var service = new InventarioService(_supabase);
+        var exito = await service.ReducirStock(id, cantidad);
 
-        // Crear un nuevo producto
-        [HttpPost]
-        public async Task<ActionResult<Productos>> InsertarProducto(Productos nuevoProducto)
-        {
-            var response = await _supabaseClient.From<Productos>().Insert(nuevoProducto);
-            var productoCreado = response.Models.FirstOrDefault();
-            return Ok(productoCreado);
-        }
+        if (!exito) return BadRequest("No hay stock suficiente o el producto no existe.");
+
+        return Ok("Venta procesada y stock actualizado.");
     }
 }

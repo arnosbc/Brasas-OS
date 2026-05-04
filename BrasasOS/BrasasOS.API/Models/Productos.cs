@@ -1,30 +1,31 @@
 ﻿using Supabase.Postgrest.Attributes;
 using Supabase.Postgrest.Models;
+using System;
 
 namespace BrasasOS.Models
 {
     [Table("productos")]
-    public class Productos : BaseModel
+    public class Producto : BaseModel
     {
         [PrimaryKey("id", false)]
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         [Column("nombre")]
         public string Nombre { get; set; }
 
+        [Column("descripcion")]
+        public string Descripcion { get; set; }
+
         [Column("precio")]
         public double Precio { get; set; }
 
+        [Column("stock")]
+        public int Stock { get; set; }
+
         [Column("categoria_id")]
-        public int CategoriaId { get; set; }
+        public long CategoriaId { get; set; }
 
         [Column("imagen_url")]
-        public string ImagenUrl { get; set; }
-
-        [Column("disponible")]
-        public bool Disponible { get; set; }
-
-        [Column("descripcion")]
-        public string Descripcion { get; set; }
+        public string? ImagenUrl { get; set; }   
     }
 }

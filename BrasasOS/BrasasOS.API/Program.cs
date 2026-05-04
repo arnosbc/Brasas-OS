@@ -3,8 +3,8 @@ using Supabase;
 var builder = WebApplication.CreateBuilder(args);
 
 // Leer URL y KEY desde appsettings.json
-var supabaseUrl = builder.Configuration["SupabaseUrl"];
-var supabaseKey = builder.Configuration["SupabaseKey"];
+var supabaseUrl = builder.Configuration["https://othadwkcstrtdztqwshg.supabase.co"];
+var supabaseKey = builder.Configuration["sb_publishable_lzJAo6QPTcYMcNMmI-a0KQ_skqIgCKw"];
 
 // Registrar el cliente de Supabase para que los controladores puedan usarlo
 builder.Services.AddScoped(_ => new Supabase.Client(supabaseUrl, supabaseKey));
