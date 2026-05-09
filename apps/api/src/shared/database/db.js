@@ -1,22 +1,15 @@
 const { Pool } = require('pg');
 require('dotenv').config();
-
-const { Pool } = require('pg');
-require('dotenv').config();
-
 const pool = new Pool({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
   port: process.env.DB_PORT,
-  // 🛡️ CRUCIAL PARA SUPABASE:
   ssl: {
-    rejectUnauthorized: false // Permite la conexión segura con Supabase
+    rejectUnauthorized: false
   }
 });
-
-// Verificación de conexión (log para el desarrollador)
 pool.query('SELECT NOW()', (err, res) => {
   if (err) {
     console.error('❌ Error conectando a Supabase:', err.stack);
@@ -24,5 +17,4 @@ pool.query('SELECT NOW()', (err, res) => {
     console.log('✅ Brasas OS conectado a Supabase con éxito');
   }
 });
-
 module.exports = pool;
