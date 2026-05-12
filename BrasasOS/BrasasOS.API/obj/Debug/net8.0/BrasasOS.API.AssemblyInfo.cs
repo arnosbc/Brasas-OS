@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrasasOS.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b795e2a57a97b89f9a2e8fcfef5bd3d100dcaa8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5d7f4219c02c0fda8c71214de08ce3e08930220")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrasasOS.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrasasOS.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
