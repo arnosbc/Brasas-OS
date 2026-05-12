@@ -21,5 +21,27 @@ const login = async (req, res) => {
         res.status(500).json({ message: 'Error interno del servidor' });
     }
 };
-
-module.exports = { login };
+const register = async (req, res) => {
+    const { nombre, email, password } = req.body;
+    if (!nombre || !email || !password) {
+        return res.status(400).json({ 
+            message: 'Nombre, email y contraseña son requeridos' 
+        });
+    }
+    if (password.length < 6) {
+        return res.status(400).json({ 
+            message: 'La contraseña debe tener al menos 6 caracteres' 
+        });
+    }
+    try {
+        const result = await authService.register(nombre, email, password);
+        res.status(201).json(result);
+    } catch (error) {
+        if (error.message === 'EMAIL_ALREADY_EXISTS') {
+            return res.status(409).json({ message: 'El email ya está registrado' });
+        }
+        console.error('Error en registro:', error);
+        res.status(500).json({ message: 'Error interno del servidor' });
+    }
+};
+module.exports = { login, register };
